@@ -65,11 +65,7 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# Docker files
+.firebaserc
 .devcontainer/
-
-# Credentials
 .credentials/
-
-# Finder file
 .DS_Store

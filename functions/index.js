@@ -26,7 +26,7 @@ exports.doJob = functions.pubsub.schedule('every 1 mins').timeZone('Asia/Tokyo')
 });
 
 exports.getAllHafhProperties = functions.pubsub.schedule('every saturday 09:00').timeZone('Asia/Tokyo').onRun((context) => {
-    const start = 1, end = 1050, max = 5;
+    const start = 1, end = 1050, max = 3;
     const batch = db.batch();
 
     for(let i = start; i <= end; i += max) {

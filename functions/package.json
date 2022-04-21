@@ -9,12 +9,12 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "14"
+    "node": "16"
   },
   "main": "index.js",
   "dependencies": {
     "firebase-admin": "^9.11.1",
-    "firebase-functions": "^3.14.1",
+    "firebase-functions": "^3.15.7",
     "got": "^11.8.2",
     "jsdom": "^17.0.0",
     "keyv-file": "^0.2.0"

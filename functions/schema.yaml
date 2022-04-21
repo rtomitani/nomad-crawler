@@ -1,9 +1,0 @@
-properties:
-  documentId: HafH Property ID
-  otherFields: Scraped Data
-
-jobs:
-  documentId: Auto
-  createdAt: Created timedate
-  crawler: Name of crawler function
-  parameter: Map of parameters for crawler function
